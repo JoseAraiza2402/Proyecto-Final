@@ -1,0 +1,20 @@
+# Ignorar node_modules del frontend
+frontend/node_modules/
+frontend/dist/
+
+# Ignorar archivos generados por Go
+*.exe
+*.out
+*.test
+
+# Ignorar logs y archivos temporales
+*.log
+*.tmp
+
+# Ignorar archivos de Docker (si no quieres subir imágenes)
+docker/
+*.dockerignore
+
+# Ignorar configuraciones locales
+.env
+.DS_Store
