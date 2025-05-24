@@ -1,14 +1,14 @@
-# Sistema de Control Escolar
+# Sistema Control Escolar
 
-Este es un sistema de control escolar implementado en Go con el framework Gin y GORM, utilizando PostgreSQL como base de datos. El proyecto cumple con los requisitos especificados para gestionar estudiantes, materias y calificaciones mediante una API RESTful.
+Este es un sistema web para gestionar estudiantes, materias y calificaciones en una escuela.
 
-## Requisitos Previos
-- Go 1.21 o superior
-- PostgreSQL
-- Docker (opcional, para despliegue en contenedores)
+## Tecnologías utilizadas
+- Backend: Go con Gin
+- Frontend: React con Material-UI
+- Base de datos: PostgreSQL (con Docker)
+- Despliegue: Docker Compose
 
 ## Instalación
 1. Clona el repositorio:
    ```bash
-   git clone <URL_DEL_REPOSITORIO>
-   cd sistema-control-escolar
+   git clone https://github.com/tu-usuario/Sistema-Control-Escolar.git
